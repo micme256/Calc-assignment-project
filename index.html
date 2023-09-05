@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Web Calc</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="display">
+        <div class="output"></div>
+        <div class="input"></div>
+      </div>
+      <!-- <div class="controls"> -->
+      <button data-key="Backspace" class="controls key" id="delete">
+        <kbd>DELETE</kbd>
+      </button>
+      <button data-key="c" class="controls key" id="clear">
+        <kbd>CLEAR</kbd>
+      </button>
+      <!-- </div> -->
+      <div class="value-button">
+        <button data-key="." class="key"><kbd>.</kbd></button>
+        <button data-key="0" class="key"><kbd>0</kbd></button>
+        <button data-key="=" class="key"><kbd>=</kbd></button>
+        <button data-key="1" class="key"><kbd>1</kbd></button>
+        <button data-key="2" class="key"><kbd>2</kbd></button>
+        <button data-key="3" class="key"><kbd>3</kbd></button>
+        <button data-key="4" class="key"><kbd>4</kbd></button>
+        <button data-key="5" class="key"><kbd>5</kbd></button>
+        <button data-key="6" class="key"><kbd>6</kbd></button>
+        <button data-key="7" class="key"><kbd>7</kbd></button>
+        <button data-key="8" class="key"><kbd>8</kbd></button>
+        <button data-key="9" class="key"><kbd>9</kbd></button>
+      </div>
+      <div class="operators">
+        <button data-key="/" class="key"><kbd>/</kbd></button>
+        <button data-key="*" class="key"><kbd>*</kbd></button>
+        <button data-key="+" class="key"><kbd>+</kbd></button>
+        <button data-key="-" class="key"><kbd>-</kbd></button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
